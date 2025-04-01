@@ -51,26 +51,14 @@ public class RentACatUnitTest {
 		// Which type is the correct choice for this unit test?  Again, I'll leave it up to you.
 		// TODO: Fill in
 		c1 = Cat.createInstance(InstanceType.MOCK, 1, "Jennyanydots");
-		Mockito.when(c1.getId()).thenReturn(1);
-		Mockito.when(c1.toString()).thenReturn("ID 1. Jennyanydots");
-		Mockito.when(c1.getName()).thenReturn("Jennyanydots");
-		Mockito.when(c1.getRented()).thenReturn(false);
 
 		// 3. Create a Cat with ID 2 and name "Old Deuteronomy", assign to c2 using a call to Cat.createInstance(InstanceType, int, String).
 		// TODO: Fill in
 		c2 = Cat.createInstance(InstanceType.MOCK, 2, "Old Deuteronomy");
-		Mockito.when(c2.getId()).thenReturn(2);
-		Mockito.when(c2.toString()).thenReturn("ID 2. Old Deuteronomy");
-		Mockito.when(c2.getName()).thenReturn("Old Deuteronomy");
-		Mockito.when(c2.getRented()).thenReturn(false);
 
 		// 4. Create a Cat with ID 3 and name "Mistoffelees", assign to c3 using a call to Cat.createInstance(InstanceType, int, String).
 		// TODO: Fill in
 		c3 = Cat.createInstance(InstanceType.MOCK, 3, "Mistoffelees");
-		Mockito.when(c3.getId()).thenReturn(3);
-		Mockito.when(c3.toString()).thenReturn("ID 3. Mistoffelees");
-		Mockito.when(c3.getName()).thenReturn("Mistoffelees");
-		Mockito.when(c3.getRented()).thenReturn(false);
 
 		// 5. Redirect system output from stdout to the "out" stream
 		// First, make a back up of System.out (which is the stdout to the console)
